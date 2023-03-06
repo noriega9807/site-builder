@@ -1,13 +1,9 @@
-import { Providers } from './providers'
-
 import '@/styles/globals.css'
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ params, children }) {
   return (
-    <html>
-      <body>
-        <Providers>{children}</Providers>
-      </body>
+    <html className="bg-base-300">
+      <body className="container mx-auto py-8 bg-base-300">{children}</body>
     </html>
   )
 }

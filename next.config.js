@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     appDir: true,
+    mdxRs: true,
   },
   async redirects() {
     return [
@@ -15,4 +16,5 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+const withMDX = require('@next/mdx')()
+module.exports = withMDX(nextConfig)
