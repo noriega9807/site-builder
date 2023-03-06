@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { notFound } from 'next/navigation'
+
 import { Inter } from 'next/font/google'
 
 import { getComponent } from '../../../utils/components'
@@ -28,6 +30,7 @@ async function getData(params) {
 
 export async function generateMetadata({ params }) {
   const data = await getData(params)
+  if (!data) return {}
   const { metadata } = data
   const metadataImage = metadata?.image?.data?.attributes
   return {
@@ -101,11 +104,9 @@ const checkComponent = (elem, index) => {
 
 export default async function Builder({ params, error }) {
   const data = await getData(params)
-  if (error) {
-    return <div>An error occured: {error.message}</div>
-  }
+  if (!data) notFound()
   const page = data?.Components?.map((elem, index) =>
     checkComponent(elem, index),
   )
-  return <>{page} </>
+  return <>{page}</>
 }
