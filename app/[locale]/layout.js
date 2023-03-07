@@ -1,22 +1,10 @@
+import { fetchPagesApi } from '/lib/pages'
+
 import ThemeSelector from '@/components/ThemeSelector'
 
 async function getData(locale) {
-  const response = await fetch(
-    `http://127.0.0.1:1337/api/page-builders?locale=${locale}&fields[0]=url&fields[1]=name`,
-    {
-      next: { revalidate: 0 },
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    },
-  )
-  const { data, errors } = await response.json()
-  if (errors) {
-    throw new Error('Failed to fetch data')
-  }
-
-  return data
+  const response = await fetchPagesApi(locale)
+  return response
 }
 
 async function groupByPath(items) {

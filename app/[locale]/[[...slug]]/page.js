@@ -1,37 +1,32 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { cookies } from 'next/headers'
 import { notFound } from 'next/navigation'
 
 import { Inter } from 'next/font/google'
 
+import { fetchPageApi, fetchPagePreviewApi } from '/lib/pages'
 import { getComponent } from '../../../utils/components'
+import ExitPreview from '@/components/ExitPreview'
 
 const inter = Inter({ subsets: ['latin'] })
 
-async function getData(params) {
+async function getData(params, preview) {
+  const isPreview = preview
   const url = !params?.slug ? '/' : params?.slug?.join('/')
-  const response = await fetch(
-    `http://127.0.0.1:1337/api/page-builders?locale=${params?.locale}&filters[url][$eq]=${url}&populate=Components,metadata.image`,
-    {
-      next: { revalidate: 10 },
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    },
-  )
-  const { data, errors } = await response.json()
-  if (errors) {
-    throw new Error('Failed to fetch data')
-  }
 
-  return data?.[0]?.attributes
+  const response = isPreview
+    ? await fetchPagePreviewApi(params?.locale, url)
+    : await fetchPageApi(params?.locale, url)
+  return { response, previewMode: isPreview }
 }
 
 export async function generateMetadata({ params }) {
-  const data = await getData(params)
-  if (!data) return {}
-  const { metadata } = data
+  const cookieStore = cookies()
+  const preview = cookieStore.has('preview') || null
+  const data = await getData(params, preview)
+  if (!data.response) return {}
+  const { metadata } = data?.response
   const metadataImage = metadata?.image?.data?.attributes
   return {
     title: metadata.title,
@@ -102,11 +97,18 @@ const checkComponent = (elem, index) => {
   return getComponent(object)
 }
 
-export default async function Builder({ params, error }) {
-  const data = await getData(params)
-  if (!data) notFound()
-  const page = data?.Components?.map((elem, index) =>
+export default async function Builder({ params }) {
+  const cookieStore = cookies()
+  const preview = cookieStore.has('preview') || false
+  const data = await getData(params, preview)
+  if (!data.response) notFound()
+  const page = data?.response?.Components?.map((elem, index) =>
     checkComponent(elem, index),
   )
-  return <>{page}</>
+  return (
+    <>
+      {data?.previewMode ? <ExitPreview /> : ''}
+      {page}
+    </>
+  )
 }
