@@ -1,0 +1,932 @@
+{
+  "code": 100,
+  "message": "Request complete successfully",
+  "data": [
+      {
+          "assetId": 30848,
+          "vehicleNumber": "TR - 238 LEONARDO LUNA",
+          "numberPlates": "LW8297B",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "NEW CASCADIA",
+          "vehicleYear": "2020",
+          "vin": "3AKJHPDV7LSLW8297",
+          "engineModel": "DD13 EURO V",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 1616,
+                  "groupName": "Acceso a clientes"
+              },
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4409,
+                  "groupName": "BISS"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 10971,
+                  "groupName": "Mexitranspxv-RCWalmart"
+              },
+              {
+                  "groupId": 12949,
+                  "groupName": "TRU"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              }
+          ],
+          "serialNumber": "010055210",
+          "simImei": "5580197684",
+          "position": {
+              "gpsSpeed": 6.0,
+              "gpsDistance": 290714.794,
+              "driver": {
+                  "driverId": 15095,
+                  "driverName": "OP-30848",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 50.0,
+              "orientationLabel": "NE",
+              "satellites": 10,
+              "temperatures": [],
+              "nearestCityReference": "A 2 Km al S de la ciudad: Miguel Hidalgo, CMX. (-; En: Zona Jammer Av. Constituyentes.)",
+              "nearestCity": {
+                  "distance": 2.2488668803983547,
+                  "name": "Miguel Hidalgo, CMX",
+                  "orientation": "S"
+              },
+              "date": "2023-03-09T17:56:51+0000",
+              "latitude": 19.40889,
+              "longitude": -99.19746,
+              "streetReference": "Avenida Constituyentes, Miguel Hidalgo, MX-CMX",
+              "altitude": 2311.0,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 30849,
+          "vehicleNumber": "TR - 236 LEOPOLDO GLEZ",
+          "numberPlates": "38AM2N",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "CASCADIA",
+          "vehicleYear": "2020",
+          "vin": "3AKJHPDV0LSLW8299",
+          "engineModel": "DD13 EURO V",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 1800,
+                  "groupName": "CUENTA ESPEJO DE MABE"
+              },
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 10971,
+                  "groupName": "Mexitranspxv-RCWalmart"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              }
+          ],
+          "serialNumber": "0580036456",
+          "simImei": "866381051830211",
+          "position": {
+              "gpsSpeed": 0.2,
+              "gpsDistance": 98179.191,
+              "driver": {
+                  "driverId": 15098,
+                  "driverName": "OP-30849",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 182.83,
+              "orientationLabel": "S",
+              "satellites": 16,
+              "temperatures": [],
+              "nearestCityReference": "A 39 Km al N de la ciudad: Saltillo, COA.",
+              "nearestCity": {
+                  "distance": 39.33427120235033,
+                  "name": "Saltillo, COA",
+                  "orientation": "N"
+              },
+              "date": "2023-03-07T21:17:03+0000",
+              "latitude": 25.3702,
+              "longitude": -101.01669,
+              "streetReference": "Boulevard Prolongación Boulevard Antonio Cárdenas, Saltillo, MX-COA",
+              "altitude": 1796.0,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 78916,
+          "vehicleNumber": "0128",
+          "numberPlates": "90AR3N",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "M2",
+          "vehicleYear": "2022",
+          "vin": "3ALACYF3XNDNB2987",
+          "engineModel": "MBE 926",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 13903,
+                  "groupName": "GUADALAJARA"
+              }
+          ],
+          "serialNumber": "0580030943",
+          "simImei": "5531900097",
+          "position": {
+              "gpsSpeed": 0.0,
+              "gpsDistance": 209929.861,
+              "driver": {
+                  "driverId": 66954,
+                  "driverName": "OP-78916",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3854,
+                  "diagnosticStatus": "Baja de vehículo",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 300.0,
+              "orientationLabel": "NW",
+              "satellites": 21,
+              "temperatures": [],
+              "nearestCityReference": "A 17 Km al E de la ciudad: Tlajomulco de Zúñiga, JAL.",
+              "nearestCity": {
+                  "distance": 17.096248456663158,
+                  "name": "Tlajomulco de Zúñiga, JAL",
+                  "orientation": "E"
+              },
+              "date": "2023-03-09T02:44:52+0000",
+              "latitude": 20.49405,
+              "longitude": -103.25465,
+              "streetReference": "Calle Paseo de los Ciruelos, Tlajomulco de Zúñiga, MX-JAL",
+              "altitude": 1543.0,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 78918,
+          "vehicleNumber": "0129",
+          "numberPlates": "91AR3N",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "M2",
+          "vehicleYear": "2022",
+          "vin": "3ALACYF36NDNB2985",
+          "engineModel": "MBE 926",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 13903,
+                  "groupName": "GUADALAJARA"
+              }
+          ],
+          "serialNumber": "0580030940",
+          "simImei": "5531385643",
+          "position": {
+              "gpsSpeed": 0.0,
+              "gpsDistance": 197703.252,
+              "driver": {
+                  "driverId": 66956,
+                  "driverName": "OP-78918",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": false,
+              "orientation": 0.0,
+              "orientationLabel": "N",
+              "satellites": 16,
+              "temperatures": [],
+              "nearestCityReference": "A 2 Km al O de la ciudad: El Salto, JAL.",
+              "nearestCity": {
+                  "distance": 2.7982873570479803,
+                  "name": "El Salto, JAL",
+                  "orientation": "O"
+              },
+              "date": "2023-03-07T21:12:02+0000",
+              "latitude": 20.53002,
+              "longitude": -103.27047,
+              "streetReference": "Periférico Periférico Oriente, El Salto, MX-JAL",
+              "altitude": 1519.0,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 33419,
+          "vehicleNumber": "TR - 216 HUGO MOLINA",
+          "numberPlates": "41AX8J",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "CASCADIA",
+          "vehicleYear": "2017",
+          "vin": "3AKJGLDR7HSHY6772",
+          "engineModel": "DD15 EURO IV",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 1616,
+                  "groupName": "Acceso a clientes"
+              },
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4409,
+                  "groupName": "BISS"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 10971,
+                  "groupName": "Mexitranspxv-RCWalmart"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              }
+          ],
+          "serialNumber": "205207190",
+          "simImei": "5532254119",
+          "position": {
+              "gpsSpeed": 0.0,
+              "gpsDistance": 652796.033,
+              "driver": {
+                  "driverId": 18053,
+                  "driverName": "OP-33419",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": false,
+              "orientation": 0.0,
+              "orientationLabel": "N",
+              "satellites": 9,
+              "temperatures": [],
+              "nearestCityReference": "A 1 Km al O de la ciudad: Huitzilac, MOR. (-; En: PATIO TRES MARIAS.)",
+              "nearestCity": {
+                  "distance": 1.0118091559367606,
+                  "name": "Huitzilac, MOR",
+                  "orientation": "O"
+              },
+              "date": "2023-03-07T21:09:34+0000",
+              "latitude": 19.05602,
+              "longitude": -99.2461,
+              "streetReference": "Privada Cuauhtémoc, Huitzilac, MX-MOR",
+              "altitude": 2827.0,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 26092,
+          "vehicleNumber": "TR - 232 JORGE CASTRO",
+          "numberPlates": "06AL1W",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "NEW CASCADIA",
+          "vehicleYear": "2020",
+          "vin": "3AKJHPDV6LSLW8291",
+          "engineModel": "DD13 EURO V",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4409,
+                  "groupName": "BISS"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 12949,
+                  "groupName": "TRU"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              }
+          ],
+          "serialNumber": "008880224",
+          "simImei": "5579082002",
+          "position": {
+              "gpsSpeed": 85.0,
+              "gpsDistance": 369137.96,
+              "driver": {
+                  "driverId": 9400,
+                  "driverName": "OP-26092",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6947,
+                  "operationalStatus": "En ruta cargado"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 320.0,
+              "orientationLabel": "NW",
+              "satellites": 12,
+              "temperatures": [],
+              "nearestCityReference": "A 7 Km al SE de la ciudad: Jocotitlán, MEX.",
+              "nearestCity": {
+                  "distance": 7.129383021401101,
+                  "name": "Jocotitlán, MEX",
+                  "orientation": "SE"
+              },
+              "date": "2023-03-09T17:55:51+0000",
+              "latitude": 19.65913,
+              "longitude": -99.79413,
+              "streetReference": "Carretera Toluca - Palmillas, Jocotitlán, MX-MEX",
+              "altitude": 2567.8,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 26093,
+          "vehicleNumber": "TR - 233 VICTOR MANZANO",
+          "numberPlates": "05AL1W",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "NEW CASCADIA",
+          "vehicleYear": "2020",
+          "vin": "3AKJHPDV8LSLW8292",
+          "engineModel": "DD13 EURO V",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 1616,
+                  "groupName": "Acceso a clientes"
+              },
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4409,
+                  "groupName": "BISS"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 5112,
+                  "groupName": "E-COMMERCE"
+              },
+              {
+                  "groupId": 10971,
+                  "groupName": "Mexitranspxv-RCWalmart"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              }
+          ],
+          "serialNumber": "008873411",
+          "simImei": "5579500294",
+          "position": {
+              "gpsSpeed": 90.985,
+              "gpsDistance": 275283.954,
+              "driver": {
+                  "driverId": 9401,
+                  "driverName": "OP-26093",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 171.11,
+              "orientationLabel": "S",
+              "satellites": 12,
+              "temperatures": [],
+              "nearestCityReference": "A 3 Km al O de la ciudad: Matehuala, SLP.",
+              "nearestCity": {
+                  "distance": 3.3865575844605225,
+                  "name": "Matehuala, SLP",
+                  "orientation": "O"
+              },
+              "date": "2023-03-09T17:56:34+0000",
+              "latitude": 23.50993,
+              "longitude": -100.62022,
+              "streetReference": "Carretera San Luis Potosí - Matehuala, Matehuala, MX-SLP",
+              "altitude": 1474.3,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 30833,
+          "vehicleNumber": "TR- 240 JUAN MTZ",
+          "numberPlates": "42AM2N",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "NEW CASCADIA",
+          "vehicleYear": "2020",
+          "vin": "3AKJHPDV3LSLW8295",
+          "engineModel": "DD13 EURO V",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4409,
+                  "groupName": "BISS"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 5112,
+                  "groupName": "E-COMMERCE"
+              },
+              {
+                  "groupId": 5431,
+                  "groupName": "UNILEVER TRACTOS"
+              },
+              {
+                  "groupId": 10717,
+                  "groupName": "CUENTA ESPEJO UNILEVER"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              }
+          ],
+          "serialNumber": "010178810",
+          "simImei": "5548994939",
+          "position": {
+              "gpsSpeed": 0.0,
+              "gpsDistance": 351109.949,
+              "driver": {
+                  "driverId": 15080,
+                  "driverName": "OP-30833",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": false,
+              "orientation": 60.0,
+              "orientationLabel": "NE",
+              "satellites": 11,
+              "temperatures": [],
+              "nearestCityReference": "A 3 Km al O de la ciudad: Tianguistenco, MEX.",
+              "nearestCity": {
+                  "distance": 3.0226813334373546,
+                  "name": "Tianguistenco, MEX",
+                  "orientation": "O"
+              },
+              "date": "2023-03-09T17:55:03+0000",
+              "latitude": 19.16434,
+              "longitude": -99.46083,
+              "streetReference": "Carretera (México - Toluca) - Tenango del Valle, Tianguistenco, MX-MEX",
+              "altitude": 2668.0,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 30834,
+          "vehicleNumber": "TR - 239 FERNANDO TORRES",
+          "numberPlates": "41AM2N",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "NEW CASCADIA",
+          "vehicleYear": "2020",
+          "vin": "3AKJHPDV5LSLW8296",
+          "engineModel": "DD13 EURO V",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4409,
+                  "groupName": "BISS"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 5431,
+                  "groupName": "UNILEVER TRACTOS"
+              },
+              {
+                  "groupId": 10717,
+                  "groupName": "CUENTA ESPEJO UNILEVER"
+              },
+              {
+                  "groupId": 12949,
+                  "groupName": "TRU"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              },
+              {
+                  "groupId": 21829,
+                  "groupName": "PXV LA LUZ"
+              }
+          ],
+          "serialNumber": "010063164",
+          "simImei": "5522487650",
+          "position": {
+              "gpsSpeed": 91.659,
+              "gpsDistance": 204698.913,
+              "driver": {
+                  "driverId": 15081,
+                  "driverName": "OP-30834",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 230.63,
+              "orientationLabel": "SW",
+              "satellites": 12,
+              "temperatures": [],
+              "nearestCityReference": "A 18 Km al N de la ciudad: Santa Catarina, NLE.",
+              "nearestCity": {
+                  "distance": 18.733953128772036,
+                  "name": "Santa Catarina, NLE",
+                  "orientation": "N"
+              },
+              "date": "2023-03-09T17:56:41+0000",
+              "latitude": 25.74115,
+              "longitude": -100.51637,
+              "streetReference": "Carretera Libramiento Noroeste de Monterrey, García, MX-NLE",
+              "altitude": 754.5,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 30835,
+          "vehicleNumber": "TR - 237 - ISMAEL CRUZ",
+          "numberPlates": "39AM2N",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "NEW CASCADIA",
+          "vehicleYear": "2020",
+          "vin": "3AKJHPDV9LSLW8298",
+          "engineModel": "DD13 EURO V",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 1616,
+                  "groupName": "Acceso a clientes"
+              },
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 2715,
+                  "groupName": "TRUPER HERRAMIENTAS"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 10971,
+                  "groupName": "Mexitranspxv-RCWalmart"
+              },
+              {
+                  "groupId": 12949,
+                  "groupName": "TRU"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              }
+          ],
+          "serialNumber": "010063442",
+          "simImei": "5517982483",
+          "position": {
+              "gpsSpeed": 95.609,
+              "gpsDistance": 396778.39,
+              "driver": {
+                  "driverId": 15082,
+                  "driverName": "OP-30835",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6947,
+                  "operationalStatus": "En ruta cargado"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 152.76,
+              "orientationLabel": "SE",
+              "satellites": 12,
+              "temperatures": [],
+              "nearestCityReference": "A 15 Km al S de la ciudad: El Marqués, QUE. (-; En: robo 231.)",
+              "nearestCity": {
+                  "distance": 15.78397541149963,
+                  "name": "El Marqués, QUE",
+                  "orientation": "S"
+              },
+              "date": "2023-03-09T17:55:54+0000",
+              "latitude": 20.5822,
+              "longitude": -100.24059,
+              "streetReference": "Carretera Libramiento Noreste de Querétaro, El Marqués, MX-QUE",
+              "altitude": 1913.8,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 80374,
+          "vehicleNumber": "0130",
+          "numberPlates": "57AR7N",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "M2",
+          "vehicleYear": "2022",
+          "vin": "3ALACYF38NDNB2986",
+          "engineModel": "Gas Plus",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 10971,
+                  "groupName": "Mexitranspxv-RCWalmart"
+              },
+              {
+                  "groupId": 13903,
+                  "groupName": "GUADALAJARA"
+              }
+          ],
+          "serialNumber": "0580031308",
+          "simImei": "5532768711",
+          "position": {
+              "gpsSpeed": 45.41,
+              "gpsDistance": 166263.546,
+              "driver": {
+                  "driverId": 68554,
+                  "driverName": "OP-80374",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6939,
+                  "operationalStatus": "Disponible"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 142.36,
+              "orientationLabel": "SE",
+              "satellites": 19,
+              "temperatures": [],
+              "nearestCityReference": "A 10 Km al O de la ciudad: León, GUA.",
+              "nearestCity": {
+                  "distance": 10.31622414802082,
+                  "name": "León, GUA",
+                  "orientation": "O"
+              },
+              "date": "2023-03-07T21:13:04+0000",
+              "latitude": 21.13638,
+              "longitude": -101.72088,
+              "streetReference": "Boulevard Juan Alonso de Torres, León, MX-GUA",
+              "altitude": 1950.0,
+              "isSatelliteSource": false
+          }
+      },
+      {
+          "assetId": 26458,
+          "vehicleNumber": "TR - 234 IVAN MORALES",
+          "numberPlates": "04AL1W",
+          "vehicleBrand": "FREIGHTLINER",
+          "vehicleModel": "NEW CASCADIA",
+          "vehicleYear": "2020",
+          "vin": "3AKJHPDVXLSLW8293",
+          "engineModel": "DD13 EURO V",
+          "groupName": "MEXITRANS",
+          "groups": [
+              {
+                  "groupId": 1616,
+                  "groupName": "Acceso a clientes"
+              },
+              {
+                  "groupId": 2574,
+                  "groupName": "mexitransws"
+              },
+              {
+                  "groupId": 2715,
+                  "groupName": "TRUPER HERRAMIENTAS"
+              },
+              {
+                  "groupId": 4409,
+                  "groupName": "BISS"
+              },
+              {
+                  "groupId": 4651,
+                  "groupName": "wsmexitransrc"
+              },
+              {
+                  "groupId": 4923,
+                  "groupName": "Mexitrans-RCWalmart "
+              },
+              {
+                  "groupId": 5431,
+                  "groupName": "UNILEVER TRACTOS"
+              },
+              {
+                  "groupId": 10717,
+                  "groupName": "CUENTA ESPEJO UNILEVER"
+              },
+              {
+                  "groupId": 12949,
+                  "groupName": "TRU"
+              },
+              {
+                  "groupId": 21426,
+                  "groupName": "API-WS-FOURKITES"
+              }
+          ],
+          "serialNumber": "008884644",
+          "simImei": "5579291006",
+          "position": {
+              "gpsSpeed": 16.498,
+              "gpsDistance": 464056.14,
+              "driver": {
+                  "driverId": 9776,
+                  "driverName": "OP-26458",
+                  "driverLastName": "-",
+                  "driverKey": "123"
+              },
+              "status": {
+                  "diagnosticStatusId": 3845,
+                  "diagnosticStatus": "En operación",
+                  "operationalStatusId": 6941,
+                  "operationalStatus": "Arribo a destino de carga"
+              },
+              "events": [],
+              "ignition": true,
+              "orientation": 116.0,
+              "orientationLabel": "SE",
+              "satellites": 12,
+              "temperatures": [],
+              "nearestCityReference": "A 2 Km al O de la ciudad: Ixtlahuacán de los Membrillos, JAL.",
+              "nearestCity": {
+                  "distance": 2.034147201645194,
+                  "name": "Ixtlahuacán de los Membrillos, JAL",
+                  "orientation": "O"
+              },
+              "date": "2023-03-09T17:55:47+0000",
+              "latitude": 20.39746,
+              "longitude": -103.22582,
+              "streetReference": "Carretera Guadalajara - Ent. Jocotepec, Ixtlahuacán de los Membrillos, MX-JAL",
+              "altitude": 1555.4,
+              "isSatelliteSource": false
+          }
+      }
+  ],
+  "meta": {
+      "transactionId": 1678384624513,
+      "clientId": 420,
+      "userId": 3079,
+      "queryDate": "2023-03-09T17:57:04+0000"
+  }
+}

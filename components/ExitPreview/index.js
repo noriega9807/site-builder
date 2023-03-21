@@ -2,7 +2,7 @@
 
 import { useRouter, usePathname } from 'next/navigation'
 
-export default function ThemeSelector() {
+export default function ExitPreview() {
   const router = useRouter()
   const pathname = usePathname()
 

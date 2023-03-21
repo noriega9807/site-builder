@@ -1,6 +1,6 @@
 import { fetchPagesApi } from '/lib/pages'
 
-import ThemeSelector from '@/components/ThemeSelector'
+import ThemeSelector from '../../components/ThemeSelector'
 
 async function getData(locale) {
   const response = await fetchPagesApi(locale)

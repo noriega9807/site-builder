@@ -107,7 +107,7 @@ export default async function Builder({ params }) {
   )
   return (
     <>
-      {data?.previewMode ? <ExitPreview /> : ''}
+      {data?.previewMode && <ExitPreview />}
       {page}
     </>
   )
